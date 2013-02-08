@@ -29,10 +29,10 @@ $(document).ready(function(){
     }
     u = parseInt(u);
     if (u > 1000000) {
-      return u / 1000000 + "M";
+      return parseInt(u / 10000) / 100 + "M";
     }
     if (u > 1000) {
-      return u / 1000 + "K";
+      return parseInt(u / 10) / 100 + "K";
     }
     return u;
   };

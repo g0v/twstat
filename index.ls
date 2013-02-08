@@ -17,8 +17,8 @@ reformat = (v) ->
   if isNaN u then return "N/A"
   if u<100 then return parseInt(u*100)/100
   u = parseInt u
-  if u>1000000 then return "#{u/1000000}M"
-  if u>1000 then return "#{u/1000}K"
+  if u>1000000 then return "#{parseInt(u/10000)/100}M"
+  if u>1000 then return "#{parseInt(u/10)/100}K"
   u
   
 
