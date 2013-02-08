@@ -8,6 +8,9 @@ html
     script(src="js/underscore-min.js")
     script(src="js/px.min.js")
     script(src="index.js")
+    link(rel="stylesheet",type="text/css",href="index.css")
   body
-    select#index: option 選擇分類
-    select#year: option 選擇年份
+    h3#index-name 隨機挑選指標資料中...
+    select#index-chooser: option(value="0") 選擇分類
+    select#year-chooser: option(value="0") 選擇年份
+    #content

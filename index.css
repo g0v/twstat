@@ -1,0 +1,38 @@
+.county {
+  display:block;
+  width:100px;height:100px;
+  border:1px solid #999;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px;
+  margin: 5px;
+  float: left;
+  text-align: center;
+  font-family: calibri,arial,verdana;
+}
+
+.county .name {
+  height:20px;
+  line-height:20px;
+  font-size:11px;
+  color:#999;
+  background:#ddd;
+}
+
+
+.county .value {
+  height:80px;
+  font-size:16px;
+  color:#000;
+  font-weight: 700;
+  background:#fff;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  text-align: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+}
