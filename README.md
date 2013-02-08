@@ -12,10 +12,12 @@ Demo
 Synopsis
 ========
 
-Once can read PC-AXIS files (*.px) with npm "px" packages, either server or client side. Check [PX npm page](http://npmjs.org/package/px) for more detail.
+One can read PC-AXIS files (*.px) with npm "px" packages, either in server or client side. Check [PX npm page](http://npmjs.org/package/px) for more detail.
 
 Server Side
 --------
+
+do a `npm install px` command (for installing px) and then: 
 
         var Px = require("px");
         var fs = require("fs");
