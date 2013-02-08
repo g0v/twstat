@@ -23,7 +23,7 @@ do a `npm install px` command (for installing px) and then:
         var fs = require("fs");
         
         fs.readFile("your-px-file", "utf8", function(err, data) {
-          obj = new px(data);
+          obj = new Px(data);
         }
 
 Client Side
