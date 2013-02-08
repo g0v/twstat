@@ -3,6 +3,12 @@ twstat
 
 This repository holds Taiwan's national statistics data, downloaded from [http://ebas1.ebas.gov.tw/pxweb/Dialog/statfile9.asp](http://ebas1.ebas.gov.tw/pxweb/Dialog/statfile9.asp). They contain data from 1998 to 2011 in utf-8 encoding and PC-AXIS format.
 
+Demo
+========
+
+[http://g0v.github.com/twstat](http://g0v.github.com/twstat) randomly chooses a statistics file and renders it with [http://d3js.org](http://d3js.org) and [http://npmjs.org/package/px](http://npmjs.org/package/px).
+
+
 Synopsis
 ========
 
