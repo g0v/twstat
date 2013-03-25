@@ -1,0 +1,31 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 11:54";
+DECIMALS=2;
+SHOWDECIMALS=0;
+MATRIX="PH006";
+SUBJECT-AREA="衛生醫療";
+SUBJECT-CODE="PH";
+TITLE="死亡情形-年  期間  項目別";
+CONTENTS="死亡情形-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2011";
+VALUES("項目別")=" 死亡人數(人)"," 死亡率(人／十萬人)"," 新生兒死亡率(人／千活嬰)"," 嬰兒死亡率(人／千活嬰)",
+" 孕產婦死亡率(人／十萬活嬰)";
+PRECISION("項目別"," 死亡率(人／十萬人)")=2;
+PRECISION("項目別"," 新生兒死亡率(人／千活嬰)")=2;
+PRECISION("項目別"," 嬰兒死亡率(人／千活嬰)")=2;
+PRECISION("項目別"," 孕產婦死亡率(人／十萬活嬰)")=2;
+LAST-UPDATED="20120930";
+SOURCE="本府衛生局";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+14893.00 
+560.64 
+3.05 
+4.45 
+4.12;

@@ -1,0 +1,28 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121022 13:15";
+DECIMALS=4;
+SHOWDECIMALS=2;
+MATRIX="GS002";
+SUBJECT-AREA="政府服務";
+SUBJECT-CODE="GS";
+TITLE="公教人員年齡結構-年  期間  項目別";
+CONTENTS="公教人員年齡結構-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2011";
+VALUES("項目別")=" 公教人員之平均年齡(歲)"," 公教人員性別比率_男性(％)"," 公教人員性別比率_女性(％)",
+" 公教人員年齡結構_29歲以下(％)"," 公教人員年齡結構_30至49歲(％)"," 公教人員年齡結構_50歲以上(％)";
+LAST-UPDATED="20120930";
+SOURCE="本府人事處";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+42.1600 
+44.3321 
+55.6679 
+7.6222 
+78.0960 
+14.2818;

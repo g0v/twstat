@@ -1,0 +1,25 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 11:43";
+DECIMALS=4;
+SHOWDECIMALS=2;
+MATRIX="MA001";
+SUBJECT-AREA="金融概況";
+SUBJECT-CODE="MA";
+TITLE="金融概況-年  期間  項目別";
+CONTENTS="金融概況-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2011";
+VALUES("項目別")=" 存款餘額(億元)"," 放款餘額(億元)"," 存放款比率(%)"," 平均每萬人金融機構(家/萬人)";
+LAST-UPDATED="20121001";
+SOURCE="中央銀行、行政院金融監督管理委員會";
+REFPERIOD="";
+NOTE="存款餘額不含中華郵政公司儲匯處轉存本國銀行存款。#"
+"#";
+DATA=
+30076.2300 
+18374.9500 
+61.0946 
+2.0643;

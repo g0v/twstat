@@ -1,0 +1,30 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 14:27";
+DECIMALS=4;
+SHOWDECIMALS=2;
+MATRIX="EC001";
+SUBJECT-AREA="教育文化";
+SUBJECT-CODE="EC";
+TITLE="15歲以上人口教育程度-年  期間  項目別";
+CONTENTS="15歲以上人口教育程度-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2011";
+VALUES("項目別")=" 研究所所占比例(%)"," 大學所占比例(%)"," 專科所占比例(%)"," 高中所占比例(%)"," 高職所占比例(%)",
+" 國中所占比例(初職)(%)"," 國小所占比例(%)"," 自修及不識字所占比例(%)";
+LAST-UPDATED="20121001";
+SOURCE="本府民政局";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+5.0200 
+21.4700 
+13.0900 
+8.0600 
+25.5700 
+12.9000 
+12.1300 
+1.7700;

@@ -1,0 +1,40 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121016 14:01";
+DECIMALS=2;
+SHOWDECIMALS=0;
+MATRIX="TR001";
+SUBJECT-AREA="ユ硄笲块";
+SUBJECT-CODE="TR";
+TITLE="诀笆ó进-  戳丁  兜ヘ";
+CONTENTS="诀笆ó进-";
+UNITS="?";
+STUB="戳丁";
+HEADING="兜ヘ";
+VALUES("戳丁")="2011";
+VALUES("兜ヘ")=" ═ó(进)"," キА–局Τ═ó(进/)"," 诀ó(进)"," キА–局Τ诀ó(进/)"," カΤの獶カΤ氨ó计-═ó()",
+" カΤの獶カΤ氨ó计-キА–κ进═ó局Τ氨ó计(/κ进)"," カΤの獶カΤ氨ó计-═óカΤΜ禣()",
+" カΤの獶カΤ氨ó计-诀ó()"," カΤの獶カΤ氨ó计-キА–κ进诀ó局Τ氨ó计(/κ进)",
+" カΤの獶カΤ氨ó计-诀óカΤΜ禣()"," –═óㄉΤそ隔の糴6そへóノ隔縩(キよそへ/进)";
+PRECISION("兜ヘ"," キА–局Τ═ó(进/)")=2;
+PRECISION("兜ヘ"," キА–局Τ诀ó(进/)")=2;
+PRECISION("兜ヘ"," カΤの獶カΤ氨ó计-キА–κ进═ó局Τ氨ó计(/κ进)")=2;
+PRECISION("兜ヘ"," カΤの獶カΤ氨ó计-キА–κ进诀ó局Τ氨ó计(/κ进)")=2;
+PRECISION("兜ヘ"," –═óㄉΤそ隔の糴6そへóノ隔縩(キよそへ/进)")=2;
+LAST-UPDATED="20120930";
+SOURCE="籓いカ璶参璸夹";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+940472.00 
+352.98 
+1744402.00 
+654.71 
+99723.00 
+10.60 
+27279.00 
+61914.00 
+3.55 
+5616.00 
+43.26;

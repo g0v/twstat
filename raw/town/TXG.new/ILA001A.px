@@ -1,0 +1,30 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 13:19";
+DECIMALS=2;
+SHOWDECIMALS=0;
+MATRIX="LA001";
+SUBJECT-AREA="土地";
+SUBJECT-CODE="LA";
+TITLE="氣候-年  期間  項目別";
+CONTENTS="氣候-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2011";
+VALUES("項目別")=" 平均氣溫(℃)"," 平均相對濕度(％)"," 日照時數(小時)"," 雨量(毫米)"," 降水日數(日)";
+PRECISION("項目別"," 平均氣溫(℃)")=1;
+PRECISION("項目別"," 平均相對濕度(％)")=2;
+PRECISION("項目別"," 日照時數(小時)")=1;
+PRECISION("項目別"," 雨量(毫米)")=1;
+LAST-UPDATED="20121001";
+SOURCE="交通部中央氣象局";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+23.50 
+71.70 
+1842.10 
+1204.90 
+109.00;

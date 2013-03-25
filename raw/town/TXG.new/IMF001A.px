@@ -1,0 +1,25 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 14:26";
+DECIMALS=4;
+SHOWDECIMALS=2;
+MATRIX="MF001";
+SUBJECT-AREA="婚育概況";
+SUBJECT-CODE="MF";
+TITLE="15歲以上婚姻狀況-年  期間  項目別";
+CONTENTS="15歲以上婚姻狀況-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2011";
+VALUES("項目別")=" 未婚(%)"," 有偶(%)"," 離婚(%)"," 喪偶(%)";
+LAST-UPDATED="20121001";
+SOURCE="本府民政局";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+35.7000 
+51.8600 
+7.1000 
+5.3400;

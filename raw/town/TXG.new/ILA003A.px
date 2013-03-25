@@ -1,0 +1,28 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 13:19";
+DECIMALS=2;
+SHOWDECIMALS=0;
+MATRIX="LA003";
+SUBJECT-AREA="";
+SUBJECT-CODE="LA";
+TITLE="そ基の瞷-  戳丁  兜ヘ";
+CONTENTS="そ基の瞷-";
+UNITS="?";
+STUB="戳丁";
+HEADING="兜ヘ";
+VALUES("戳丁")="2011";
+VALUES("兜ヘ")=" そ基羆肂(κ窾じ)"," そ瞷羆肂(κ窾じ)"," 常カそ瞷羆肂(κ窾じ)",
+" 獶常カそ瞷羆肂(κ窾じ)"," 常カ基计(973る┏=100)";
+PRECISION("兜ヘ"," 常カ基计(973る┏=100)")=2;
+LAST-UPDATED="20121001";
+SOURCE="セ┎現Ы";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+1273317.00 
+6954446.00 
+5743343.00 
+1211103.00 
+102.14;

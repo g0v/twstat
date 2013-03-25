@@ -1,0 +1,27 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 14:26";
+DECIMALS=4;
+SHOWDECIMALS=2;
+MATRIX="PO002";
+SUBJECT-AREA="人口";
+SUBJECT-CODE="PO";
+TITLE="人口年齡分配-年  期間  項目別";
+CONTENTS="人口年齡分配-年";
+UNITS="%";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2011";
+VALUES("項目別")=" 幼年人口比例(0-14歲)"," 青壯年人口比例(15-64歲)"," 老年人口比例(65歲以上)"," 扶養比",
+" 老化指數";
+LAST-UPDATED="20121001";
+SOURCE="本府民政局";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+16.5600 
+74.6100 
+8.8300 
+34.0300 
+53.2800;

@@ -1,0 +1,28 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121022 13:15";
+DECIMALS=4;
+SHOWDECIMALS=2;
+MATRIX="GS003";
+SUBJECT-AREA="政府服務";
+SUBJECT-CODE="GS";
+TITLE="公教人員教育程度結構-年  期間  項目別";
+CONTENTS="公教人員教育程度結構-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2011";
+VALUES("項目別")=" 公教人員教育程度結構_博士(％)"," 公教人員教育程度結構_碩士(％)"," 公教人員教育程度結構_大學(％)",
+" 公教人員教育程度結構_專科(％)"," 公教人員教育程度結構_高中職(％)"," 公教人員教育程度結構_國中以下(％)";
+LAST-UPDATED="20120930";
+SOURCE="本府人事處";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+0.3200 
+24.2700 
+48.9100 
+18.7000 
+7.7700 
+0.0300;

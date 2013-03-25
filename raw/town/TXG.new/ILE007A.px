@@ -1,0 +1,27 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 14:27";
+DECIMALS=2;
+SHOWDECIMALS=0;
+MATRIX="LE007";
+SUBJECT-AREA="勞動就業";
+SUBJECT-CODE="LE";
+TITLE="重大職災與勞資爭議-年  期間  項目別";
+CONTENTS="重大職災與勞資爭議-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2011";
+VALUES("項目別")=" 失能傷害次數(人次)"," 失能傷害嚴重率(百萬比)"," 失能傷害頻率(百萬比)"," 勞資爭議解決率(%)";
+PRECISION("項目別"," 失能傷害頻率(百萬比)")=2;
+PRECISION("項目別"," 勞資爭議解決率(%)")=2;
+LAST-UPDATED="20121001";
+SOURCE="本府勞工局";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+1374.00 
+"..." 
+2.78 
+95.20;

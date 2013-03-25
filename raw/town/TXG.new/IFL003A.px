@@ -1,0 +1,25 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 11:44";
+DECIMALS=4;
+SHOWDECIMALS=2;
+MATRIX="FL003";
+SUBJECT-AREA="家庭生活";
+SUBJECT-CODE="FL";
+TITLE="家庭消費-年  期間  項目別";
+CONTENTS="家庭消費-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2010";
+VALUES("項目別")=" 飲食費(含家外食物)占消費支出比率(%)"," 飲食費(不含家外食物)占消費支出比率(%)"," 家庭書報雜誌文具支出占消費支出比率(%)";
+LAST-UPDATED="20121001";
+SOURCE="行政院主計總處";
+REFPERIOD="";
+NOTE="家外食物係指婚生壽慶喪祭宴費(餐廳及外燴)及在外伙食費。#"
+"家庭書報雜誌文具支出含學雜費或補習費或支付家庭教師費所內含之購買教科書、參考書、講義及其他學習用書之費用。#"
+"#";
+DATA=
+25.6400 
+16.7400 
+0.9700;

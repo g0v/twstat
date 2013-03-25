@@ -1,0 +1,27 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 11:54";
+DECIMALS=4;
+SHOWDECIMALS=2;
+MATRIX="PH002";
+SUBJECT-AREA="衛生醫療";
+SUBJECT-CODE="PH";
+TITLE="病床數-年  期間  項目別";
+CONTENTS="病床數-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2011";
+VALUES("項目別")=" 平均每萬人醫療院所病床數(床/萬人)"," 平均每一醫療院所病床服務人口數(人/床)"," 平均每一執業醫師服務病床數(床/人)",
+" 平均每一護士服務病床數(床/人)"," 平均每一護理人員服務病床數(床/人)";
+LAST-UPDATED="20120930";
+SOURCE="本府衛生局";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+73.8441 
+135.4205 
+7.2299 
+8.6497 
+1.2722;

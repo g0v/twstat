@@ -1,0 +1,27 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 11:43";
+DECIMALS=4;
+SHOWDECIMALS=2;
+MATRIX="FL002";
+SUBJECT-AREA="家庭生活";
+SUBJECT-CODE="FL";
+TITLE="家庭所得結構及差距-年  期間  項目別";
+CONTENTS="家庭所得結構及差距-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2010";
+VALUES("項目別")=" 經常性收入結構比--受僱人員報酬(%)"," 經常性收入結構比--產業主所得(%)"," 經常性收入結構比--財產所得(%)",
+" 經常性收入結構比--經常移轉收入(%)"," 經常性收入結構比--雜項收入(%)";
+LAST-UPDATED="20121001";
+SOURCE="行政院主計總處";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+52.2600 
+18.6900 
+12.9800 
+16.0600 
+0.0100;

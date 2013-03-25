@@ -1,0 +1,30 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121017 11:56";
+DECIMALS=2;
+SHOWDECIMALS=0;
+MATRIX="PW006";
+SUBJECT-AREA="公共建設";
+SUBJECT-CODE="PW";
+TITLE="自來水-年  期間  項目別";
+CONTENTS="自來水-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2011";
+VALUES("項目別")=" 年底輸配水管長度(千公尺)"," 年底實際供水人數(人)"," 配水量(1,000立方公尺)"," 平均每日配水量(立方公尺/日)",
+" 平均每人每日配水量(立方公尺/人/日)"," 年底自來水普及率(%)";
+PRECISION("項目別"," 平均每人每日配水量(立方公尺/人/日)")=3;
+PRECISION("項目別"," 年底自來水普及率(%)")=2;
+LAST-UPDATED="20120930";
+SOURCE="台灣自來水股份有限公司";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+6149.898 
+2473277.000 
+469704.000 
+1286861.000 
+0.424 
+92.830;

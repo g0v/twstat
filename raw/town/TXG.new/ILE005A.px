@@ -1,0 +1,29 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 14:26";
+DECIMALS=4;
+SHOWDECIMALS=2;
+MATRIX="LE005";
+SUBJECT-AREA="勞動就業";
+SUBJECT-CODE="LE";
+TITLE="就業者教育程度及年齡-年  期間  項目別";
+CONTENTS="就業者教育程度及年齡-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2011";
+VALUES("項目別")=" 教育程度別_大專以上(%)"," 教育程度別_高中(職)(%)"," 教育程度別_國中以下(%)"," 年齡別_15~24歲(%)",
+" 年齡別_25~44歲(%)"," 年齡別_45~64歲(%)"," 年齡別_65歲以上(%)";
+LAST-UPDATED="20121001";
+SOURCE="本府勞工局";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+44.4900 
+36.0400 
+19.4800 
+7.9900 
+57.2100 
+33.3200 
+1.4900;

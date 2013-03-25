@@ -1,0 +1,28 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 11:43";
+DECIMALS=4;
+SHOWDECIMALS=2;
+MATRIX="EP005";
+SUBJECT-AREA="環境保護";
+SUBJECT-CODE="EP";
+TITLE="垃圾處理-年  期間  項目別";
+CONTENTS="垃圾處理-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2011";
+VALUES("項目別")=" 垃圾清運--焚化(%)"," 垃圾清運--衛生掩埋(%)"," 垃圾清運--堆肥及其他(%)"," 資源回收(%)",
+" 廚餘回收(%)"," 巨大垃圾回收再利用(%)";
+LAST-UPDATED="20121001";
+SOURCE="本府環境保護局";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+50.4700 
+0.7200 
+"-" 
+38.6500 
+8.8800 
+1.2800;

@@ -1,0 +1,32 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 14:26";
+DECIMALS=2;
+SHOWDECIMALS=0;
+MATRIX="PO001";
+SUBJECT-AREA="人口";
+SUBJECT-CODE="PO";
+TITLE="人口概況-年  期間  項目別";
+CONTENTS="人口概況-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2011";
+VALUES("項目別")=" 戶籍登記人口數(人)"," 戶籍登記人口數_男(人)"," 戶籍登記人口數_女(人)"," 戶數(戶)"," 戶量(人/戶)",
+" 人口密度(/平方公里)"," 性比例(男/百女)";
+PRECISION("項目別"," 戶量(人/戶)")=2;
+PRECISION("項目別"," 人口密度(/平方公里)")=2;
+PRECISION("項目別"," 性比例(男/百女)")=2;
+LAST-UPDATED="20121001";
+SOURCE="本府民政局";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+2664394.00 
+1324894.00 
+1339500.00 
+867854.00 
+3.07 
+1202.94 
+98.91;

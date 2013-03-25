@@ -1,0 +1,26 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 14:26";
+DECIMALS=2;
+SHOWDECIMALS=0;
+MATRIX="LE001";
+SUBJECT-AREA="勞動就業";
+SUBJECT-CODE="LE";
+TITLE="勞動力-年  期間  項目別";
+CONTENTS="勞動力-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2011";
+VALUES("項目別")=" 15歲以上民間人口數(千人)"," 勞動力人口(千人)"," 就業人口(千人)"," 失業人口(千人)"," 非勞動力人口(千人)";
+LAST-UPDATED="20121001";
+SOURCE="本府勞工局";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+2178.00 
+1294.00 
+1238.00 
+56.00 
+884.00;

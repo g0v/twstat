@@ -1,0 +1,27 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 11:43";
+DECIMALS=4;
+SHOWDECIMALS=2;
+MATRIX="EP002";
+SUBJECT-AREA="環境保護";
+SUBJECT-CODE="EP";
+TITLE="環保檢測-年  期間  項目別";
+CONTENTS="環保檢測-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2011";
+VALUES("項目別")=" 執行機關資源回收率(%)"," 交通工具空氣污染查驗告發率(%)"," 列管化學物質運作之業者查核取締率(%)",
+" 一般地區環境音量監測不合格率(%)"," 道路交通環境音量監測不合格率(%)";
+LAST-UPDATED="20121001";
+SOURCE="本府環境保護局、行政院環境保護署";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+38.6541 
+2.4975 
+1.9200 
+"-" 
+"-";

@@ -1,0 +1,29 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 14:26";
+DECIMALS=4;
+SHOWDECIMALS=2;
+MATRIX="PO003";
+SUBJECT-AREA="人口";
+SUBJECT-CODE="PO";
+TITLE="人口消長-年  期間  項目別";
+CONTENTS="人口消長-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2011";
+VALUES("項目別")=" 總增加率(千分率)"," 自然增加率(千分率)"," 粗出生率(千分率)"," 粗死亡率(千分率)"," 社會增加率(千分率)",
+" 遷入率(千分率)"," 遷出率(千分率)";
+LAST-UPDATED="20121001";
+SOURCE="本府民政局";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+6.0100 
+3.4300 
+9.0400 
+5.6100 
+2.5800 
+51.9500 
+49.3700;

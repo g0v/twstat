@@ -1,0 +1,32 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 11:43";
+DECIMALS=4;
+SHOWDECIMALS=2;
+MATRIX="EP001";
+SUBJECT-AREA="環境保護";
+SUBJECT-CODE="EP";
+TITLE="空氣汙染指標-年  期間  項目別";
+CONTENTS="空氣汙染指標-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2011";
+VALUES("項目別")=" 平均每月落塵量(公噸/平方公里)"," 空氣中總懸浮微粒(微克/立方公尺)"," 二氧化硫含量(ppm)",
+" 空氣中臭氧濃度(ppm)"," 一氧化碳含量(ppm)"," 二氧化氮含量(ppm)"," 空氣污染指標(PSI)>100之日數比率(%)";
+PRECISION("項目別"," 二氧化硫含量(ppm)")=3;
+PRECISION("項目別"," 空氣中臭氧濃度(ppm)")=3;
+PRECISION("項目別"," 二氧化氮含量(ppm)")=3;
+LAST-UPDATED="20121001";
+SOURCE="本府環境保護局";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+3.6600 
+80.4900 
+0.0030 
+0.0600 
+0.4700 
+0.0180 
+0.7407;

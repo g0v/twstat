@@ -1,0 +1,31 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 14:26";
+DECIMALS=4;
+SHOWDECIMALS=2;
+MATRIX="LE003";
+SUBJECT-AREA="勞動就業";
+SUBJECT-CODE="LE";
+TITLE="就業者行業-年  期間  項目別";
+CONTENTS="就業者行業-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2011";
+VALUES("項目別")=" 農林漁牧業(%)"," 農林漁牧業_男(%)"," 農林漁牧業_女(%)"," 工業(%)"," 工業_男(%)"," 工業_女(%)",
+" 服務業(%)"," 服務業_男(%)"," 服務業_女(%)";
+LAST-UPDATED="20121001";
+SOURCE="本府勞工局";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+3.5200 
+2.6900 
+0.8300 
+40.8200 
+27.7300 
+13.0900 
+55.6600 
+25.5900 
+30.0700;

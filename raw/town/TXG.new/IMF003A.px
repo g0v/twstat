@@ -1,0 +1,30 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 14:26";
+DECIMALS=2;
+SHOWDECIMALS=0;
+MATRIX="MF003";
+SUBJECT-AREA="婚育概況";
+SUBJECT-CODE="MF";
+TITLE="嬰兒出生情形-年  期間  項目別";
+CONTENTS="嬰兒出生情形-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2011";
+VALUES("項目別")=" 一般生育率(千分率)"," 出生人數(人)"," 出生情形別_婚生(%)"," 出生情形別_非婚生(%)"," 出生情形別_棄嬰或無依(%)";
+PRECISION("項目別"," 一般生育率(千分率)")=2;
+PRECISION("項目別"," 出生情形別_婚生(%)")=2;
+PRECISION("項目別"," 出生情形別_非婚生(%)")=2;
+PRECISION("項目別"," 出生情形別_棄嬰或無依(%)")=2;
+LAST-UPDATED="20121001";
+SOURCE="本府民政局";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+"..." 
+24027.00 
+96.30 
+3.68 
+0.02;

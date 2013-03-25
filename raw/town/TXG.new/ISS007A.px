@@ -1,0 +1,30 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 14:02";
+DECIMALS=2;
+SHOWDECIMALS=0;
+MATRIX="SS007";
+SUBJECT-AREA="社會治安";
+SUBJECT-CODE="SS";
+TITLE="警力配置-年  期間  警力配置";
+CONTENTS="警力配置-年";
+UNITS="?";
+STUB="期間";
+HEADING="警力配置";
+VALUES("期間")="2011";
+VALUES("警力配置")=" 員警編制人數(人)"," 實際員警人數(人)"," 每萬人口員警人數(人/萬人)"," 每一員警維護治安服務人數(人/人)",
+" 警勤區數(個)"," 派出所數(所)";
+PRECISION("警力配置"," 每萬人口員警人數(人/萬人)")=2;
+PRECISION("警力配置"," 每一員警維護治安服務人數(人/人)")=2;
+LAST-UPDATED="20121001";
+SOURCE="臺中市政府警察局";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+7531.00 
+6291.00 
+23.61 
+423.52 
+2147.00 
+101.00;

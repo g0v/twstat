@@ -1,0 +1,32 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121016 14:01";
+DECIMALS=2;
+SHOWDECIMALS=0;
+MATRIX="TR002";
+SUBJECT-AREA="ユ硄笲块";
+SUBJECT-CODE="TR";
+TITLE="ユ硄磅猭-  戳丁  ╈笻砏ó进";
+CONTENTS="ユ硄磅猭-";
+UNITS="?";
+STUB="戳丁";
+HEADING="╈笻砏ó进";
+VALUES("戳丁")="2011";
+VALUES("╈笻砏ó进")=" ═óó(进)"," キА–ら╈笻砏═óó进(进/ら)"," 诀ó(进)"," キА–ら╈笻砏诀óó进(进/ら)",
+" ゅみ╈初(进)"," 盧紈╈初(进)"," 伦╈初(进)"," Μユ硄笻砏籃领肂(じ)";
+PRECISION("╈笻砏ó进"," キА–ら╈笻砏═óó进(进/ら)")=2;
+PRECISION("╈笻砏ó进"," キА–ら╈笻砏诀óó进(进/ら)")=2;
+LAST-UPDATED="20120930";
+SOURCE="籓いカ璶参璸夹";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+53612.00 
+146.88 
+8159.00 
+22.35 
+25116.00 
+29541.00 
+7114.00 
+31163.00;

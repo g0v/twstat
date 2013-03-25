@@ -1,0 +1,26 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121019 11:43";
+DECIMALS=4;
+SHOWDECIMALS=2;
+MATRIX="EP006";
+SUBJECT-AREA="環境保護";
+SUBJECT-CODE="EP";
+TITLE="資源回收-年  期間  項目別";
+CONTENTS="資源回收-年";
+UNITS="?";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2011";
+VALUES("項目別")=" 平均每日資源回收量(公噸/日)"," 平均每人每日資源回收量(公斤/人/日)"," 平均每日廚餘回收量(公噸/日)",
+" 平均每人每日廚餘回收量(公斤/人/日)";
+LAST-UPDATED="20121001";
+SOURCE="本府環境保護局";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+827.7100 
+0.6300 
+190.0700 
+0.1400;
