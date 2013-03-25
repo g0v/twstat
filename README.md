@@ -52,26 +52,31 @@ Town Level
 Data in Town granularity are separated in websites of local government, some still use PXWeb to build their site:
 
 * TPQ: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile01/List01.txt
-* TPE: http://163.29.37.101/pxweb2007-tp/dialog/List.txt
+* TPE: http://163.29.37.101/pxweb2007-tp/dialog/List.txt (?? 2010)
+* TXG: http://pxweb.taichung.gov.tw/taichung/dialog/List.txt (after 2010)
+* TXQ: http://pxweb.taichung.gov.tw/county/dialog/List.txt (before 2010)
+* TNN: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile21/List21.txt (before 2010)
+* KHH: http://kcgdg.kcg.gov.tw/pxweb2007p/dialog/List.txt (after 2010)
+* KHH: http://kcgdg.kcg.gov.tw/pxweb2007p/dialog/Listo.txt (before 2010)
 * KEE: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile17/List17.txt
 * TAO: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile03/List03.txt
 * HSZ: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile18/List18.txt
-* TXG: Thttp://pxweb.taichung.gov.tw/taichung/dialog/List.txt
+* TXG: http://pxweb.taichung.gov.tw/taichung/dialog/List.txt
 * CHA: http://gas.chcg.gov.tw/pxweb2007p/dialog/List.txt
 * NAN: http://sta.nantou.gov.tw/pxweb/Dialog/List.txt
 * CYI: http://www.chiayi.gov.tw/pxweb2007P/Dialog/List.txt
 * CYQ: http://townweb.cyhg.gov.tw/pxweb/Dialog/List.txt
-* TNN: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile21/List21.txt (before 2010)
 * TNQ: http://pxweb.tainan.gov.tw/Dialog/List.txt
-* KHH: http://kcgdg.kcg.gov.tw/pxweb2007p/dialog/List.txt
 * ILA: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile02/List02.txt
 * TTT: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile14/List14.txt
 * JME: http://stat.kinmen.gov.tw/List.txt
-* TXG: http://pxweb.taichung.gov.tw/taichung/dialog/List.txt (after 2010)
+
+Raw data after 2010 will be in a folder named XXX.new.
+
 
 Missed files
 -----------------------
-Some files from above source can't be found:
+Some files from above source can't be found: ( not all files are listed )
 
 * HSZ
   * AG0404A31A.px
@@ -90,6 +95,15 @@ Missed County
 -----------------------
 Data of following counties still can't be found:
 
-* CYQ: http://townweb.cyhg.gov.tw/pxweb/Dialog/List.txt
-* KHH: http://kcgdg.kcg.gov.tw/pxweb2007p/dialog/List.txt
 * All counties not listed above.
+
+Other Information
+=======================
+To fix tree rendering issue in PXWeb, try following in dev console:
+
+    function blah() { if(ns.readyState==4) {  onDownloadDone(ns.responseText); } }
+    ns = new XMLHttpRequest();
+    ns.onreadystatechange = blah;
+    ns.open("GET", "List.txt", true);
+    ns.setRequestHeader('Content-type', "plain/text; charset=utf-8;");
+    ns.send();
