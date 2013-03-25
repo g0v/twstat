@@ -2,15 +2,13 @@
 import re,sys,subprocess,os,glob
 
 if len(sys.argv)<2:
-  print("usage: fetch.py site-url [list.txt]")
-  print("site-url: e.g., http://pxweb.taichung.gov.tw/taichung/Dialog/")
-  print("list.txt: filename of the text file used by tree view")
+  print("usage: fetch.py list-txt-url")
+  print("list-txt-url: e.g., http://pxweb.taichung.gov.tw/taichung/Dialog/List.txt")
   sys.exit(0)
 
-listtxt = "List.txt"
-siteurl = sys.argv[1]
+listtxt = os.path.basename(sys.argv[1])
+siteurl = os.path.dirname(sys.argv[1])
 if siteurl[-1]!="/": siteurl+="/"
-if sys.argv>=3: listtxt = sys.argv[2]
 
 if not os.path.exists("tmpdir"): os.makedirs("tmpdir")
 
@@ -28,9 +26,11 @@ dbs = [[x.group(1),x.group(2)] for x in filter(lambda x:x,
 
 print("total %d db fetched."%len(dbs))
 
-varval = "%svarval.asp"%siteurl
-saveshow = "%sSaveshow.asp"%siteurl
-path = "../PXfile/"
+# todo: use path inside list.txt
+#varval = "%sDialog/varval.asp"%siteurl
+#saveshow = "%sDialog/Saveshow.asp"%siteurl
+varval = "%sDialog/varval.asp"%siteurl
+saveshow = "%sDialog/Saveshow.asp"%siteurl
 
 count=0
 print("fetching varval.asp for each db...")

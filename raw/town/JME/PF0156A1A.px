@@ -1,0 +1,24 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20121122 14:38";
+DECIMALS=2;
+SHOWDECIMALS=0;
+MATRIX="PF0156";
+SUBJECT-AREA="公共財政";
+SUBJECT-CODE="PF";
+TITLE="中央補助計畫概況(體育場執行)-年  年別  項目別";
+CONTENTS="中央補助計畫概況(體育場執行)-年";
+UNITS="元";
+STUB="年別";
+HEADING="項目別";
+VALUES("年別")=" 2006"," 2007"," 2008"," 2009"," 2010"," 2011";
+VALUES("項目別")=" 總計"," 辦理15屆縣運會暨離島聯合運動會經費"," 其他";
+LAST-UPDATED="20121122";
+SOURCE="金門縣統計年報";
+REFPERIOD="";
+NOTE="#"
+"#";
+DATA=
+200000.00 200000.00 "." "." "." "." 
+"." "." "." "." "." "." 
+"." "." "." "." "." ".";

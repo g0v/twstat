@@ -2,6 +2,7 @@ twstat
 ======
 
 This repository holds Taiwan's national statistics data downloaded from official government website.
+
 Demo
 ========
 
@@ -54,8 +55,10 @@ Data in Town granularity are separated in websites of local government, some sti
 * TPQ: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile01/List01.txt
 * TPE: http://163.29.37.101/pxweb2007-tp/dialog/List.txt (?? 2010)
 * TXG: http://pxweb.taichung.gov.tw/taichung/dialog/List.txt (after 2010)
+* TXG: http://pxweb.taichung.gov.tw/city/dialog/List.txt (before 2010)
 * TXQ: http://pxweb.taichung.gov.tw/county/dialog/List.txt (before 2010)
 * TNN: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile21/List21.txt (before 2010)
+* TNQ: http://pxweb.tainan.gov.tw/Dialog/List.txt (before 2010)
 * KHH: http://kcgdg.kcg.gov.tw/pxweb2007p/dialog/List.txt (after 2010)
 * KHH: http://kcgdg.kcg.gov.tw/pxweb2007p/dialog/Listo.txt (before 2010)
 * KEE: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile17/List17.txt
@@ -66,7 +69,6 @@ Data in Town granularity are separated in websites of local government, some sti
 * NAN: http://sta.nantou.gov.tw/pxweb/Dialog/List.txt
 * CYI: http://www.chiayi.gov.tw/pxweb2007P/Dialog/List.txt
 * CYQ: http://townweb.cyhg.gov.tw/pxweb/Dialog/List.txt
-* TNQ: http://pxweb.tainan.gov.tw/Dialog/List.txt
 * ILA: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile02/List02.txt
 * TTT: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile14/List14.txt
 * JME: http://stat.kinmen.gov.tw/List.txt
@@ -74,31 +76,26 @@ Data in Town granularity are separated in websites of local government, some sti
 Raw data after 2010 will be in a folder named XXX.new.
 
 
-Missed files
------------------------
-Some files from above source can't be found: ( not all files are listed )
-
-* HSZ
-  * AG0404A31A.px
-  * JS703A1A.px
-  * EP1002A2A.px
-
-* NAN
-  * ER0102A1A.px
-  * ER0103A1A.px
-
-* TTT
-  * CL0310A1A.px
-  * CL0311A1A.px
-
-Missed County
+Missed Counties
 -----------------------
 Data of following counties still can't be found:
 
-* All counties not listed above.
+* HSQ
+* MIA
+* HUA
+* YUN
+* PEN
+* PIF
+* LJF
+* TNN (after 2010)
+* TPQ (before 2010)
+* KHQ (before 2010)
 
 Other Information
 =======================
+
+Browser Support Issue
+-----------------------
 To fix tree rendering issue in PXWeb, try following in dev console:
 
     function blah() { if(ns.readyState==4) {  onDownloadDone(ns.responseText); } }
@@ -107,3 +104,19 @@ To fix tree rendering issue in PXWeb, try following in dev console:
     ns.open("GET", "List.txt", true);
     ns.setRequestHeader('Content-type', "plain/text; charset=utf-8;");
     ns.send();
+
+How to Use fetch.py
+-----------------------
+fetch.py can crawl pxweb2007 websites for you. find the List.txt of that site, then:
+
+    ./fetch.py [list-txt-url]
+
+for example:
+
+    ./fetch.py http://pxweb.taichung.gov.tw/taichung/dialog/List.txt
+
+it will create a "tmpdir" folder and download all pc-axis files into it.
+
+Copyright
+=======================
+All data under this repository belongs to whom it should belongs. All sources under this repository  is Copyright c 2012 g0v.tw. It is free software, and may be redistributed under the terms specified in the MIT-LICENSE file.
