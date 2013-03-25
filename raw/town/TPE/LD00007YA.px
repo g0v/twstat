@@ -1,0 +1,24 @@
+CHARSET="ANSI";
+AXIS-VERSION="2005";
+CREATION-DATE="2012059 18:10";
+SUBJECT-AREA="土地面積";
+SUBJECT-CODE="LD";
+MATRIX="LD0000";
+TITLE=" 臺北市公告地價-年";
+CONTENTS=" 臺北市公告地價-年";
+UNITS="如項目";
+STUB="年別";
+HEADING="項目";
+VALUES("年別")=" 89年7月1日"," 93年1月1日"," 96年1月1日"," 99年1月1日";
+VALUES("項目")=" 公告地價總額(千元)"," 調整幅度(%)";
+PRECISION("項目"," 調整幅度(%)")=2;
+DECIMALS=2;
+SHOWDECIMALS=0;
+LAST-UPDATED="20120509";
+SOURCE="本府地政局";
+REFPERIOD="";
+NOTE=
+"公告地價92年以前係不定期公告，自93年起為每3年之1月1日公告。#"
+;
+DATA=
+5352438561	4.42	5391529072	-0.68	5779807919	7.02	6139780087	6.05	;

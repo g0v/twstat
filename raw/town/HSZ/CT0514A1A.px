@@ -1,0 +1,20 @@
+CHARSET="ANSI";
+AXIS-VERSION="2005";
+CREATION-DATE="20110826 15:23";
+SUBJECT-AREA="商品與勞務貿易";
+SUBJECT-CODE="CT";
+MATRIX="CT0514";
+TITLE="營利事業營業家數－行業別-年";
+CONTENTS="營利事業營業家數－行業別-年";
+UNITS="家";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2002";
+VALUES("項目別")=" 合計"," 農林漁牧業"," 礦業及土石採取業"," 製造業"," 水電燃氣業"," 營造業"," 批發零售及餐飲業"," 運輸、倉儲及通信業"," 金融保險不動產"," 工商服務業"," 社會服務及個人服務業"," 公共行政業"," 其他不能歸類之行業";
+DECIMALS=2;
+SHOWDECIMALS=0;
+LAST-UPDATED="20101013";
+SOURCE="新竹市統計要覽";
+REFPERIOD="";
+DATA=
+19878	222	10	2680	22	1486	11271	311	589	1169	2117	1	"."	;

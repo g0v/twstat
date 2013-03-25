@@ -1,0 +1,20 @@
+CHARSET="ANSI";
+AXIS-VERSION="2005";
+CREATION-DATE="20110824 17:10";
+SUBJECT-AREA="教育與研究";
+SUBJECT-CODE="ER";
+MATRIX="ER0807";
+TITLE="短期補習班概況-年";
+CONTENTS="短期補習班概況-年";
+UNITS="家";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2000";
+VALUES("項目別")=" 總計"," 文理(含外語)"," 技藝類--合計"," 技藝類--農"," 技藝類--工"," 技藝類--商"," 技藝類--資訊"," 技藝類--藝術"," 技藝類--家政"," 技藝類--運動"," 技藝類--其他";
+DECIMALS=2;
+SHOWDECIMALS=0;
+LAST-UPDATED="20110727";
+SOURCE="新竹市統計要覽";
+REFPERIOD="";
+DATA=
+149	118	31	"."	2	1	5	12	3	"."	8	;

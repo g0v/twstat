@@ -1,0 +1,20 @@
+CHARSET="ANSI";
+AXIS-VERSION="2005";
+CREATION-DATE="20111019 14:10";
+SUBJECT-AREA="社會服務";
+SUBJECT-CODE="SS";
+MATRIX="SS1109";
+TITLE="辦理社會救助醫療費用及看護補助概況-年";
+CONTENTS="辦理社會救助醫療費用及看護補助概況-年";
+UNITS="";
+STUB="期間";
+HEADING="項目別";
+VALUES("期間")="2000";
+VALUES("項目別")=" 年底醫療院所數(所)"," 住院人次"," 住院總日數(日)"," 門診人次 (人次)"," 補助金額(新台幣元)";
+DECIMALS=2;
+SHOWDECIMALS=0;
+LAST-UPDATED="20101126";
+SOURCE="新竹市統計要覽";
+REFPERIOD="";
+DATA=
+"."	4	55	"."	"."	;

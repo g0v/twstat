@@ -1,0 +1,22 @@
+CHARSET="ANSI";
+AXIS-VERSION="2005";
+CREATION-DATE="2011099 13:45";
+SUBJECT-AREA="商品與勞務貿易";
+SUBJECT-CODE="CT";
+MATRIX="CT0513";
+TITLE="工商及服務業企業單位數---按行業別-年";
+CONTENTS="工商及服務業企業單位數---按行業別-年";
+UNITS="家";
+STUB="年別";
+HEADING="項目別";
+VALUES("年別")=" 民國80年(1991)";
+VALUES("項目別")=" 總   計"," 礦業及土石採取業"," 製造業"," 水電燃氣業"," 營造業"," 商業"," 運輸、倉儲及通信業"," 金融保險及不動產業"," 工商服務業"," 社會服務及個人服務業";
+DECIMALS=2;
+SHOWDECIMALS=0;
+LAST-UPDATED="20101013";
+SOURCE="新竹市統計要覽";
+REFPERIOD="";
+NOTE="根據台閩地區工商及服務業普查報告#"
+;
+DATA=
+13278	12	3380	1	445	6795	384	102	433	1726	;

@@ -1,0 +1,24 @@
+CHARSET="ANSI";
+AXIS-VERSION="2005";
+CREATION-DATE="20121113 16:58";
+SUBJECT-AREA="社會服務";
+SUBJECT-CODE="SS";
+MATRIX="SS1303";
+TITLE="經濟案件(100年後)-年";
+CONTENTS="經濟案件(100年後)-年";
+UNITS="件";
+STUB="期間";
+HEADING="案件";
+VALUES("期間")="2011";
+VALUES("案件")=" 總計"," 違反金融"," 違反公平交易法"," 違法販賣汽柴油"," 走私"," 產製、販賣私劣酒"," 侵害智慧財產權"," 盜採砂(土)石"," 濫(盜)筏林木"," 濫墾林地、山坡地"," 其他";
+DECIMALS=2;
+SHOWDECIMALS=0;
+LAST-UPDATED="20121115";
+SOURCE="內政部警政署統計室";
+REFPERIOD="";
+NOTE=
+"#"
+"#"
+;
+DATA=
+85	31	"."	"."	6	3	25	2	10	8	"."	;

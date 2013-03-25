@@ -1,8 +1,7 @@
 twstat
 ======
 
-This repository holds Taiwan's national statistics data, downloaded from [http://ebas1.ebas.gov.tw/pxweb/Dialog/statfile9.asp](http://ebas1.ebas.gov.tw/pxweb/Dialog/statfile9.asp). They contain data from 1998 to 2011 in utf-8 encoding and PC-AXIS format.
-
+This repository holds Taiwan's national statistics data downloaded from official government website.
 Demo
 ========
 
@@ -40,3 +39,59 @@ px.js and underscore.js are required. they can be found under npm's px packge, o
              obj = new Px(data);
           }
         </script>
+
+Data Source and Note
+=======================
+
+County Level
+-----------------------
+Data in county granularity are downloaded from [http://ebas1.ebas.gov.tw/pxweb/Dialog/statfile9.asp](http://ebas1.ebas.gov.tw/pxweb/Dialog/statfile9.asp). They contain data from 1998 to 2011 in utf-8 encoding and PC-AXIS format.
+
+Town Level
+-----------------------
+Data in Town granularity are separated in websites of local government, some still use PXWeb to build their site:
+
+* TPQ: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile01/List01.txt
+* TPE: http://163.29.37.101/pxweb2007-tp/dialog/List.txt
+* KEE: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile17/List17.txt
+* TAO: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile03/List03.txt
+* HSZ: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile18/List18.txt
+* TXG: Thttp://pxweb.taichung.gov.tw/taichung/dialog/List.txt
+* CHA: http://gas.chcg.gov.tw/pxweb2007p/dialog/List.txt
+* NAN: http://sta.nantou.gov.tw/pxweb/Dialog/List.txt
+* CYI: http://www.chiayi.gov.tw/pxweb2007P/Dialog/List.txt
+* CYQ: http://townweb.cyhg.gov.tw/pxweb/Dialog/List.txt
+* TNN: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile21/List21.txt
+* TNQ: http://pxweb.tainan.gov.tw/Dialog/List.txt
+* KHH: http://kcgdg.kcg.gov.tw/pxweb2007p/dialog/List.txt
+* ILA: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile02/List02.txt
+* TTT: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile14/List14.txt
+* JME: http://stat.kinmen.gov.tw/List.txt
+
+Missed files
+-----------------------
+Some files from above source can't be found:
+
+* HSZ
+  * AG0404A31A.px
+  * JS703A1A.px
+  * EP1002A2A.px
+
+* NAN
+  * ER0102A1A.px
+  * ER0103A1A.px
+
+* TTT
+  * CL0310A1A.px
+  * CL0311A1A.px
+
+Missed County
+-----------------------
+Data of following counties still can't be found:
+
+* TXG: http://pxweb.taichung.gov.tw/taichung/dialog/List.txt
+* CYI: http://www.chiayi.gov.tw/pxweb2007P/Dialog/List.txt
+* CYQ: http://townweb.cyhg.gov.tw/pxweb/Dialog/List.txt
+* TNQ: http://pxweb.tainan.gov.tw/Dialog/List.txt
+* KHH: http://kcgdg.kcg.gov.tw/pxweb2007p/dialog/List.txt
+* All counties not listed above.

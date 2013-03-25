@@ -1,0 +1,21 @@
+CHARSET="ANSI";
+AXIS-VERSION="2005";
+CREATION-DATE="20111019 14:13";
+SUBJECT-AREA="社會服務";
+SUBJECT-CODE="SS";
+MATRIX="SS1114";
+TITLE="托兒所成果-年";
+CONTENTS="托兒所成果-年";
+UNITS="所、班、人";
+STUB="期間";
+HEADING="項目別","所/人";
+VALUES("期間")="2000";
+VALUES("項目別")=" 合計"," 村里托兒所"," 私立托兒所";
+VALUES("所/人")=" 所數"," 班數"," 收托人數"," 職工人數";
+DECIMALS=2;
+SHOWDECIMALS=0;
+LAST-UPDATED="20101130";
+SOURCE="新竹市統計要覽";
+REFPERIOD="";
+DATA=
+39	148	2629	322	2	30	627	42	37	118	2002	280	;
