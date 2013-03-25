@@ -61,12 +61,13 @@ Data in Town granularity are separated in websites of local government, some sti
 * NAN: http://sta.nantou.gov.tw/pxweb/Dialog/List.txt
 * CYI: http://www.chiayi.gov.tw/pxweb2007P/Dialog/List.txt
 * CYQ: http://townweb.cyhg.gov.tw/pxweb/Dialog/List.txt
-* TNN: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile21/List21.txt
+* TNN: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile21/List21.txt (before 2010)
 * TNQ: http://pxweb.tainan.gov.tw/Dialog/List.txt
 * KHH: http://kcgdg.kcg.gov.tw/pxweb2007p/dialog/List.txt
 * ILA: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile02/List02.txt
 * TTT: http://ebas1.ebas.gov.tw/pxweb2007P/PXfile14/List14.txt
 * JME: http://stat.kinmen.gov.tw/List.txt
+* TXG: http://pxweb.taichung.gov.tw/taichung/dialog/List.txt (after 2010)
 
 Missed files
 -----------------------
@@ -89,9 +90,6 @@ Missed County
 -----------------------
 Data of following counties still can't be found:
 
-* TXG: http://pxweb.taichung.gov.tw/taichung/dialog/List.txt
-* CYI: http://www.chiayi.gov.tw/pxweb2007P/Dialog/List.txt
 * CYQ: http://townweb.cyhg.gov.tw/pxweb/Dialog/List.txt
-* TNQ: http://pxweb.tainan.gov.tw/Dialog/List.txt
 * KHH: http://kcgdg.kcg.gov.tw/pxweb2007p/dialog/List.txt
 * All counties not listed above.
