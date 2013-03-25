@@ -1,0 +1,31 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+CREATION-DATE="20120730 10:21";
+DECIMALS=2;
+SHOWDECIMALS=0;
+MATRIX="CA0008";
+SUBJECT-AREA="商業活動";
+SUBJECT-CODE="CA";
+TITLE="高雄市蔬菜水果毛豬批發交易量及交易金額-年  年別, 種類  交易數據";
+CONTENTS="高雄市蔬菜水果毛豬批發交易量及交易金額-年";
+UNITS="公斤、千元、元/公斤";
+STUB="年別";
+HEADING="種類","交易數據";
+VALUES("年別")=" 2011";
+VALUES("種類")=" 蔬菜"," 水果"," 毛豬";
+VALUES("交易數據")=" 交易量"," 交易金額"," 平均價格";
+PRECISION("交易數據"," 平均價格")=2;
+LAST-UPDATED="20120730";
+SOURCE="本府農業局";
+REFPERIOD="";
+NOTE="99年(含)以前僅含原高雄市資料。#";
+DATA=
+112097912.00 
+1956815.06 
+17.46 
+36075470.00 
+1133775.30 
+31.43 
+28941247.50 
+2054319.73 
+70.98;
