@@ -76,7 +76,7 @@ Data in Town granularity are separated in websites of local government, some sti
 Raw data after 2010 will be in a folder named XXX.new.
 
 
-Missed Counties
+Missed Counties (Town Level)
 -----------------------
 Data of following counties still can't be found:
 
