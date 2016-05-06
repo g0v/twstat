@@ -79,6 +79,7 @@ iterate-list = (list, prev = null, count = 1) ->
   re = new RegExp("^#prefix")
   target = list.filter(-> re.exec(it))
   list = list.filter(->!re.exec(it))
+  # break into block with size <= 50 in case the dgbas takes too long to respond.
   if target.length > 50 =>
     release = target.splice 0,50
     list = release ++ list
