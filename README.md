@@ -12,7 +12,7 @@ Demo
 Synopsis
 ========
 
-One can read PC-AXIS files (*.px) with npm "px" packages, either in server or client side. Check [PX npm page](http://npmjs.org/package/px) for more detail.
+One can read PC-AXIS files (`*.px`) with npm "px" packages, either in server or client side. Check [PX npm page](http://npmjs.org/package/px) for more detail.
 
 Server Side
 --------
@@ -116,6 +116,17 @@ for example:
     ./fetch.py http://pxweb.taichung.gov.tw/taichung/dialog/List.txt
 
 it will create a "tmpdir" folder and download all pc-axis files into it.
+
+
+Crawler
+-----------------------
+automatically fetch [statdb.dgbas.gov.tw](http://statdb.dgbas.gov.tw/pxweb/dialog/CityItemlist_n.asp) ( 中華民國統計資訊網 - 縣市重要指標查詢系統 ) by main.ls ( with nodejs pre-installed ):
+
+    npm install # run once to setup environment
+    lsc main
+
+files will be kept in raw/county folder.
+
 
 Copyright
 =======================
