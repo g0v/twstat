@@ -1,12 +1,12 @@
 {
-  "author": "Kirby Wu",
+  "author": "g0v.tw",
   "name": "twstat",
   "description": "Taiwan National Statistics for County Indexes",
   "version": "0.0.2",
-  "homepage": "https://github.com/zbryikt/twstat",
+  "homepage": "https://github.com/g0v/twstat",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zbryikt/twstat"
+    "url": "https://github.com/g0v/twstat"
   },
   "engines": {
     "node": ">=0.12.6",
