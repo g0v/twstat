@@ -28,6 +28,7 @@ for file in files =>
         idx{}[index]{}[time][county] = value
 
 fs-extra.mkdirs-sync \csv/county/index
+list = []
 for index,times of idx =>
   lines = []
   pairs = [[time,counties] for time,counties of times]
@@ -36,6 +37,8 @@ for index,times of idx =>
   for pair in pairs =>
     lines.push([pair.0] ++ countynames.map(-> pair.1[it]))
   fs.write-file-sync "csv/county/index/#{index}.csv", lines.map(->it.join(\,)).join(\\n)
+  list.push(index)
+fs.write-file-sync \csv/county/index/index.json, JSON.stringify(list.map(->"#it.csv"))
 
 fs-extra.mkdirs-sync \csv/county/category
 for prefix, headers of cat =>
