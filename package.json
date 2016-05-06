@@ -17,7 +17,14 @@
     "jade": "=1.11.0",
     "chokidar": "=1.0.3",
     "stylus": "=0.50.0",
-    "uglify-js": "=2.4.16"
+    "uglify-js": "=2.4.16",
+    "request": "=2.72.0",
+    "request-debug": "=0.2.0",
+    "iconv-lite": "=0.4.13",
+    "bluebird": "=3.3.5",
+    "cheerio": "=0.20.0",
+    "fs-extra": "=0.30.0",
+    "px": "=0.1.2"
   }
 }
 
