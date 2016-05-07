@@ -15,11 +15,10 @@ for file in files =>
   count = 0
   if !cat[prefix] => cat[prefix] = ["年度","縣市"]
   cat[prefix] ++= stubs["指標"].map(->it.trim!)
-
   for i from 0 til stubs["期間"].length
     time = stubs["期間"][i]
     for j from 0 til stubs["縣市"].length
-      county = stubs["縣市"][j]
+      county = stubs["縣市"][j].trim!
       for k from 0 til stubs["指標"].length 
         index = stubs["指標"][k].trim!
         count = j + stubs["縣市"].length * ( i + k * stubs["期間"].length)
