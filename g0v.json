@@ -1,0 +1,24 @@
+{
+  "status": "beta",
+  "name": "twstat",
+  "name_zh": "台灣統計資訊",
+  "description": "tstat",
+  "description_zh": "twstat",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/g0v/twstat"
+  },
+  "licenses": [
+    {
+      "type": "CC-BY"
+    }
+  ],
+  "keywords": [
+    "community",
+    "g0v.tw",
+    "communication"
+  ],
+  "audience": [
+    "public"
+  ]
+}
