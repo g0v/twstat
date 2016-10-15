@@ -1,9 +1,9 @@
 {
   "status": "beta",
-  "name": "twstat",
-  "name_zh": "台灣統計資訊",
-  "description": "tstat",
-  "description_zh": "twstat",
+  "name": "Pblic Safety Indicator of Taiwan",
+  "name_zh": "台灣縣市公共安全重要統計指標",
+  "description": "This project get collatees information of fire and traffic accident from goverment. People can easily find data of year 1998-2011.",
+  "description_zh": "本專案將政府公布的各縣市的火災與交通事故相關數據整理成方便查詢與閱讀的格式，可查詢資料橫跨1998~2011各度。",
   "repository": {
     "type": "git",
     "url": "https://github.com/g0v/twstat"
@@ -22,3 +22,4 @@
     "public"
   ]
 }
+"thumbnail":"https://github.com/Legendream/twstat/blob/master/%E5%8F%B0%E7%81%A3%E7%B8%A3%E5%B8%82%E6%8C%87%E6%A8%99-01.png?raw=true"
